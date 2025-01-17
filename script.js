@@ -48,8 +48,8 @@ function displayResult(result){
 }
 
 function getComputerChoice() {
-    let randomValue =  Math.floor((1 / Math.random(100)) % 3);      
-    //console.log(randomValue);
+    let randomValue = Math.random() * 3;
+    console.log(randomValue);
     let choice = "";
     switch(randomValue){
         case 0:
