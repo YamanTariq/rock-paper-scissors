@@ -48,7 +48,7 @@ function displayResult(result){
 }
 
 function getComputerChoice() {
-    let randomValue = Math.random() * 3;
+    let randomValue = Math.floor((Math.random() * 3));
     console.log(randomValue);
     let choice = "";
     switch(randomValue){
